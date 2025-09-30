@@ -1,0 +1,41 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+    background-color: #f9f0f0;
+    line-height: normal;
+}
+
+header h1{
+    font-size: larger;
+    letter-spacing: normal;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+h2{
+    font-size: medium;
+    color: #222;
+    margin-bottom: 16px;
+}
+
+nav {
+    color: #fff;
+    margin: auto;
+    text-align: center;
+}
+
+nav:hover {
+    color: #000;
+}
+
+footer{
+    text-align: center;
+    color: #fff;
+    background: #333;
+    margin-top: auto;
+    padding: 16px;
+}
+section{
+    padding: 32px;
+    margin: auto;
+}
