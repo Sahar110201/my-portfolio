@@ -78,6 +78,7 @@ section{
     max-width: 1000px;
     margin: 40 auto;
     padding: 0 20px;
+    justify-content: center;
 }
 .project {
     background-color:#c7d0b4;
@@ -107,6 +108,12 @@ section{
 background-color:#234c6a;
 font-style: normal;
 color: #eeeeee;
+}
+.detail {
+    display: none;
+    margin-top: 10px;
+    line-height: 1.4px;
+    font-size: 16px;
 }
 
 @media (max-width: 480px) {
