@@ -5,10 +5,10 @@ buttons.forEach(button => {
 
     if (details.style.display === 'block') {
         details.style.display = 'none';
-        button.textContent = 'Show Details';
+        button.textContent = 'Show Detail';
     } else {
         details.style.display = 'block';
-        button.textContent = 'Hide Details';
+        button.textContent = 'Hide Detail';
     }
 });
 });
