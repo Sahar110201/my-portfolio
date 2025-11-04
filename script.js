@@ -12,3 +12,12 @@ buttons.forEach(button => {
     }
 });
 });
+
+//form validation
+function formValidation() {
+    const name = document.getElementById("name");
+    const emailAddress = document.getElementById("emailaddress");
+    const message = document.getElementById("message");
+
+    
+}
