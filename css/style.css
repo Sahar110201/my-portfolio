@@ -71,6 +71,26 @@ section{
     }
     
 }
+.gallery {
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 40 auto;
+    padding: 0 20px;
+}
+.project {
+    background-color:#c7d0b4;
+    border: 2px solid;
+    border-color: #456882;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: #1b3c53;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow:#eeeeee;
+}
 
 @media (max-width: 480px) {
     header {
