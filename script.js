@@ -14,9 +14,9 @@ buttons.forEach(button => {
 });
 
 
-function validateEmail(emailaddress) {
-    const regex = /\[\w\.-]+@[\w\.-]+\.\w{2,4}/;
-    return regex.test(emailaddress);
+function validateEmail(email) {
+    const regex = /^[\w.-]+@[\w.-]+\.\w{2,4}$/;
+    return regex.test(email);
 
 }
 //form validation
@@ -32,22 +32,27 @@ function formValidation() {
     const errorMessage = document.getElementById("messageError");
 
 form.addEventListener("submit", (event) => {
-    errorName.textContent = " ";
+    errorName.textContent = "";
+    errorEmail.textContent = "";
+    errorMessage.textContent ="";
 
-    if (name.value.trim() == "") {
+    if (name.value.trim() === "") {
         console.log(errorName);
-
         errorName.textContent = "Please enter your full name";
         event.preventDefault();
     }
-    if (emailAddress.value.trim() == "") {
+    if (emailAddress.value.trim() === "") {
         errorEmail.textContent = "Please enter your email address";
         event.preventDefault();
+    } else if (!validateEmail(emailAddress.value.trim())) {
+        errorEmail.textContent = "Please enter a valid email address";
+        event.preventDefault();
     }
-    if (message.value.trim() == "") {
+
+    if (message.value.trim() === "") {
         errorMessage.textContent = "Please enter a message";
         event.preventDefault();
     }
-})
+});
 }
-
+formValidation();

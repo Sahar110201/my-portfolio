@@ -19,13 +19,15 @@
      <div class ="centerform">
     <form action="#" name= "contactForm" method="POST">
         <h2>Please enter your Full Name.</h2>
-    <label><input type="text" name="name" placeholder="Full Name!" required></label><br>
+    <label><input type="text" id="name" name="name" placeholder="Full Name!" required></label><br>
+        <span id="nameError" class="errorName"></span>
 
         <h2>Please enter your Email Address.</h2>
-    <label><input type="email" name="emailaddress" placeholder="Email Address!" required></label><br>
-
+    <label><input type="email" id="emailaddress" name="emailaddress" placeholder="Email Address!" required></label><br>
+        <span id="emailError" class="errorEmail"></span>
         <h2>Please type your message here.</h2>
-    <label><input type="text" name="message" placeholder="Type your Message!" required></label><br><br>
+    <label><input type="text" id="message" name="message" placeholder="Type your Message!" required></label><br><br>
+   <span id="messageError" class="errorMessage"></span>
 
     <input type="submit"></input>
     </form>
