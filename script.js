@@ -15,7 +15,7 @@ buttons.forEach(button => {
 
 
 function validateEmail(emailaddress) {
-    const regex = /\b[\w\.-]+@[\w\.-]+\.\w{2,4}\b/;
+    const regex = /\[\w\.-]+@[\w\.-]+\.\w{2,4}/;
     return regex.test(emailaddress);
 
 }
