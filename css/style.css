@@ -91,6 +91,23 @@ section{
     gap: 10px;
     box-shadow:#eeeeee;
 }
+.project h3 {
+    font-size: 25px;
+}
+.detail-btn {
+    padding: 5px 5px;
+    border: 1px solid;
+    border-color: #234c6a;
+    border-radius: 7px;
+    background-color:#eeeeee;
+    cursor: pointer;
+    font-size: 13px;
+}
+.detail-btn:hover {
+background-color:#234c6a;
+font-style: normal;
+color: #eeeeee;
+}
 
 @media (max-width: 480px) {
     header {
