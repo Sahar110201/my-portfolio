@@ -154,6 +154,30 @@ body.dark-mode #darkmode-toggle {
 #darkmode-toggle:hover {
     background-color: #456882;
 }
+.project {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.project.show {
+    display: block; /* show filtered projects */
+}
+
+.filter-buttons button {
+    margin: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    border: none;
+    background-color: #1b3c53;
+    color: white;
+    border-radius: 5px;
+}
+
+.filter-buttons button:hover {
+    background-color: #355c73;
+}
 
 @media (max-width: 480px) {
     header {
