@@ -119,6 +119,10 @@ color: #eeeeee;
     justify-content: center;
     justify-items: center;
 }
+html {
+    scroll-behavior: smooth;
+}
+
 body.dark-mode {
     background-color: #121212;
     color: #eeeeee;
