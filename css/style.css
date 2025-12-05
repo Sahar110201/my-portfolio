@@ -125,6 +125,23 @@ color: #eeeeee;
     justify-content: center;
     justify-items: center;
 }
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+#darkmode-toggle {
+    padding: 8px 16px;
+    border: none;
+    background-color: #234c6a;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+body.darkmode #darkmode-toggle {
+    background: #f1f1f1;
+    color: #333;
+}
 
 @media (max-width: 480px) {
     header {
