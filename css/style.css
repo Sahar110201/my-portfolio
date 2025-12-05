@@ -39,12 +39,15 @@ nav a{
     font-family: verdana;
     list-style: none;
     display: inline;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
 nav a:hover {
     color: #456882;
     text-decoration: solid;
+    padding: 20px;
 }
 
 footer{
@@ -129,9 +132,9 @@ body.dark-mode {
     border-radius: 5px;
 }
 
-body.darkmode #darkmode-toggle {
-    background: #f1f1f1;
-    color: #333;
+body.dark-mode #darkmode-toggle {
+    background: #eeeeee;
+    color: #1b3c53;
 }
 #darkmode-toggle:hover {
     background-color: #456882;

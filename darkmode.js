@@ -4,5 +4,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
 darkModeBtn.addEventListener("click", () => {
         document.body.classList.toggle("dark-mode");
+
+        if(document.body.classList.contains("dark-mode")) {
+            darkModeBtn.textContent = "Click for Light Mode";
+        } else {
+            darkModeBtn.textContent = "Click for Dark Mode";
+        }
     });
 });
