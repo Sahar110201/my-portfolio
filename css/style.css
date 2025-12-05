@@ -121,7 +121,18 @@ color: #eeeeee;
 }
 body.dark-mode {
     background-color: #121212;
-    color: white;
+    color: #eeeeee;
+}
+body.dark-mode header {
+    background-color: #1b1b1b;
+    color: #ffffff;
+}
+body.dark-mode footer {
+    background-color: #1b1b1b;
+    color: #ffffff;
+}
+body.dark-mode header h1 {
+    color: #f1f1f1;
 }
 #darkmode-toggle {
     padding: 8px 16px;
