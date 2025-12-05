@@ -67,15 +67,6 @@ section{
     border-radius: 2px;
     border-color: #1b3c53;
 }
-@media (max-width: 786px) {
-    header {
-        font-size: 20px;
-    }
-    body {
-        display: block;
-    }
-    
-}
 .gallery {
     display:grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 3fr));
@@ -142,10 +133,21 @@ body.darkmode #darkmode-toggle {
     background: #f1f1f1;
     color: #333;
 }
+#darkmode-toggle:hover {
+    background-color: #456882;
+}
 
 @media (max-width: 480px) {
     header {
         font-size: 10px;
+    }
+    body {
+        display: block;
+    }
+}
+@media (max-width: 786px) {
+    header {
+        font-size: 20px;
     }
     body {
         display: block;
