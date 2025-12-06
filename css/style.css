@@ -107,6 +107,37 @@ section{
     max-width: 900px;
     box-shadow: 0 4px 12px #e0e0e0;
 }
+.centerform {
+    max-width: 600px;       
+    margin: 50px auto 150px auto;         
+    padding: 30px 25px;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;  
+    border: 2px solid #1b3c53;
+    border-radius: 15px;
+    border-color: #f8f8f8;
+    box-shadow: 0 8px 20px #000000;
+    position: relative;   
+    margin-bottom: 150px;    
+    box-sizing: border-box;  
+} 
+.centerform:hover {
+    border-color: #234c6a;
+    box-shadow: 0 12px 25px #000000;
+}
+.centerform input[type="text"],
+.centerform input[type="email"],
+.centerform textarea {
+    width: 100%;             
+    max-width: 100%;         
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #1b3c53;
+    margin-bottom: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
 .gallery {
     display:grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 3fr));
@@ -262,6 +293,15 @@ body.dark-mode #submitBtn:hover {
     color: black;
     border-color: #eeeeee;
     box-shadow: 0 4px 8px #eeeeee;
+}
+body.dark-mode .centerform {
+    border-color: #eeeeee;
+    background-color: #1b1b1b;
+}
+body.dark-mode .centerform:hover {
+    border-color: #eeeeee;
+    background-color: #1b1b1b;
+    box-shadow: 0 8px 20px #eeeeee;
 }
 #darkmode-toggle {
     padding: 8px 16px;
