@@ -69,6 +69,7 @@ nav a{
     cursor: pointer;
     border-radius: 5px;
     text-decoration: none;
+    transition: 0.3s ease;
 
 }
 
@@ -110,7 +111,8 @@ section{
     box-shadow: 0 8px 20px #000000;
     position: relative;   
     margin-bottom: 150px;    
-    box-sizing: border-box;  
+    box-sizing: border-box; 
+    transition: 0.6s ease; 
 }
 section:hover {
     border-color: #234c6a;
@@ -168,6 +170,10 @@ section:hover {
     gap: 10px;
     box-shadow:#eeeeee;
     align-items: center;
+    transition: 0.3s ease;
+}
+.project:hover {
+     box-shadow: 0 4px 8px #1b3c53;
 }
 .project h3 {
     font-size: 25px;
@@ -178,19 +184,21 @@ section:hover {
     border: 1px solid;
     border-color: #234c6a;
     border-radius: 7px;
-    background-color:#eeeeee;
+    background-color:#234c6a;
+    color: #eeeeee;
     cursor: pointer;
     font-size: 13px;
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
     display: block;
+    transition: 0.3s ease;
 }
 .detail-btn:hover {
     background-color: #eeeeee;
     color: black;
-    border-color: #eeeeee;
-    box-shadow: 0 4px 8px #eeeeee;
+    border-color: black;
+    box-shadow: 0 4px 8px black;
 }
 .detail {
     display: none;
@@ -217,6 +225,7 @@ html {
     text-transform: none;
     display: block;
     margin: 20px auto;
+    transition: 0.3s ease;
 }
 #submitBtn:hover {
     background-color: #1b3c53;
@@ -348,6 +357,7 @@ body.dark-mode #darkmode-toggle:hover {
     gap: 10px;
     margin: 30px 0;
     flex-wrap: wrap;
+    transition: 0.3s ease;
 }
 
 .filter-btn {
