@@ -62,7 +62,7 @@ nav a:hover {
     box-shadow: 0 4px 8px black;
 }
 
-nav a.active {
+nav a:active {
     background-color: #234c6a; 
     color: #fff;
     font-weight: 600;
@@ -156,11 +156,20 @@ body.dark-mode h3 {
     color: #eeeeee
 }
 body.dark-mode nav a {
+    padding: 10px 20px;
+    border: 2px solid #eeeeee; 
+    background-color: transparent;
     color: #eeeeee;
+    font-size: 16px;
+    font-weight: 500;
     cursor: pointer;
+    border-radius: 5px;
 }
 body.darkmode nav a:hover {
-    color: #234c6a;
+    background-color: #eeeeee;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px black;
 }
 body.dark-mode {
     background-color: #1b1b1b;
