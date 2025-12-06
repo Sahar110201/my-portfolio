@@ -16,6 +16,8 @@ header h1{
     background-color: #1b3c53;
     color: #eeeeee;
     font-style: italic;
+    text-transform: none;
+    letter-spacing: normal;
 }
 
 h2{
@@ -26,7 +28,13 @@ h2{
 
 h1 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #1b3c53;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px #b0b0b0;
 }
 nav {
     display: flex;
@@ -35,6 +43,9 @@ nav {
     padding: 10px 20px;
     background-color: transparent;
     box-shadow: none;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 nav-list {
     display: flex;
@@ -81,12 +92,14 @@ footer{
     z-index: 1000;
 }
 section{
-    padding: 42px;
-    margin: auto;
+    padding: 30px;
+    margin: 30px auto;
     line-height: 25px;
-    border: 3px ridge;
-    border-radius: 2px;
-    border-color: #1b3c53;
+    border: 1px solid;
+    border-radius: 8px;
+    border-color: #d0d0d0;
+    max-width: 900px;
+    box-shadow: 0 4px 12px #e0e0e0;
 }
 .gallery {
     display:grid;
@@ -147,13 +160,14 @@ html {
 }
 
 body.dark-mode h1 {
-    color: #eeeeee
+    color: #eeeeee;
+    text-shadow: 1px 1px 2px #000000
 }
 body.dark-mode h2 {
-    color: #eeeeee
+    color: #eeeeee;
 }
 body.dark-mode h3 {
-    color: #eeeeee
+    color: #eeeeee;
 }
 body.dark-mode nav a {
     padding: 10px 20px;
@@ -184,7 +198,9 @@ body.dark-mode footer {
     color: #ffffff;
 }
 body.dark-mode section {
+    border: 1px solid;
     border-color: #eeeeee;
+    box-shadow: 0 4px 12px #333333;
 }
 body.dark-mode .project {
     background-color: #1b1b1b;
