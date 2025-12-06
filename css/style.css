@@ -189,6 +189,13 @@ section:hover {
     font-size: 16px;
     box-sizing: border-box;
 }
+.centerform h2 {
+    text-align: center;
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #1b3c53;
+}
 .gallery {
     display:grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 3fr));
