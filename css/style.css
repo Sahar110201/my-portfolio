@@ -154,12 +154,6 @@ body.dark-mode #darkmode-toggle {
 #darkmode-toggle:hover {
     background-color: #456882;
 }
-.project {
-    margin: 10px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-}
 
 .project.show {
     display: block; /* show filtered projects */

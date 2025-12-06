@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
       <script src="script.js" defer></script>
       <script src="darkmode.js" defer></script>
+       <script src="filter.js" defer></script>
 </head>
 <body>
  <nav>
@@ -19,14 +20,14 @@
         </nav>
     <h1>My Projects</h1>
     <div class="filter-buttons">
-        <button data-filter="all">All</button>
-        <button data-filter="javascript">JavaScript</button>
-        <button data-filter="html">HTML</button>
-        <button data-filter="css">CSS</button>
-        <button data-filter="react">React</button>
+        <button class="filter-btn" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="javascript">JavaScript</button>
+        <button class="filter-btn" data-filter="html">HTML</button>
+        <button class="filter-btn" data-filter="css">CSS</button>
+        <button class="filter-btn" data-filter="react">React</button>
     </div>
     <div class="gallery">
-        <div class="project">
+        <div class="project" data-catagory="javascript">
             <h3>Project 1</h3>
             <button class="detail-btn">Show Detail</button>
             <div class="detail">
