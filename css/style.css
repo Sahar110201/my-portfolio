@@ -37,27 +37,27 @@ h1 {
     text-shadow: 1px 1px 2px #b0b0b0;
 }
 .nav-container {
-    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
 nav {
-    display: flex;
-    padding: 10px 0px;
-    max-width: 1200px;
-    align-items: center;
-    justify-content: space-between;
+    
+    width: 100%;
+    padding: 15px 20px;
+    padding-top: 120;
+    max-width: none;
+    text-align: center;
     background-color: transparent;
     box-shadow: none;
-    width: 100%;
-    margin: 0 auto;
+    margin: 0;
+    position: relative;
+    justify-content: flex-end;
 }
 .nav-list {
-    display: flex;
+    display: inline-block;
     gap: 30px;
-    justify-content: center;
-    margin-right: 20px;
+    margin-right: auto;
 }
 nav a{
     padding: 10px 20px;
@@ -99,7 +99,7 @@ footer{
 }
 section{
     padding: 30px;
-    margin: 30px auto;
+    margin: 80px auto;
     line-height: 25px;
     border: 1px solid;
     border-radius: 8px;
@@ -295,6 +295,9 @@ body.dark-mode .filter-btn.active {
 }
 
 @media (max-width: 480px) {
+    .gallery {
+        grid-template-columns: 1fr;
+    }
     header {
         font-size: 10px;
     }
@@ -307,6 +310,9 @@ body.dark-mode .filter-btn.active {
     }
 }
 @media (max-width: 786px) {
+    .gallery {
+        grid-template-columns: 2fr;
+    }
     header {
         font-size: 20px;
     }
