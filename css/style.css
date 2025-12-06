@@ -64,8 +64,8 @@ p {
     padding: 10px 20px;
     border: 2px solid;
     border-color: #1b3c53;
-    background-color: #eeeeee;
-    color: #1b3c53;
+    background-color: #1b3c53;
+    color: #eeeeee;
     font-size: 16px;
     font-weight: 500;
     border-radius: 5px;
@@ -75,8 +75,8 @@ p {
     transition: 0.3s ease;
 }
 .link-btn:hover {
-    background-color: #234c6a;
-    color: #eeeeee;
+    background-color: #eeeeee;
+    color: black;
     transform: translateY(-2px);
     box-shadow: 0 4px 8px black;
 }
@@ -221,6 +221,9 @@ section:hover {
 }
 .project:hover {
      box-shadow: 0 4px 8px #1b3c53;
+}
+.project .detail {
+    text-align: center;
 }
 .project h3 {
     font-size: 25px;
