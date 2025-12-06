@@ -132,8 +132,24 @@ html {
     scroll-behavior: smooth;
 }
 
+body.dark-mode h1 {
+    color: #eeeeee
+}
+body.dark-mode h2 {
+    color: #eeeeee
+}
+body.dark-mode h3 {
+    color: #eeeeee
+}
+body.dark-mode nav a {
+    color: #eeeeee;
+    cursor: pointer;
+}
+body.darkmode nav a:hover {
+    color: #234c6a;
+}
 body.dark-mode {
-    background-color: #121212;
+    background-color: #1b1b1b;
     color: #eeeeee;
 }
 body.dark-mode header {
@@ -144,9 +160,20 @@ body.dark-mode footer {
     background-color: #1b1b1b;
     color: #ffffff;
 }
-body.dark-mode header h1 {
-    color: #f1f1f1;
+body.dark-mode .project {
+    background-color: #1b1b1b;
+    border-color: #456882;
+    box-shadow: none;
 }
+body.dark-mode .detail-btn {
+    background-color: #234c6a;
+    color: #eeeeee;
+    border-color: #456882;
+}
+body.dark-mode .detail-btn:hover {
+    background-color: #456882;
+}
+
 #darkmode-toggle {
     padding: 8px 16px;
     border: none;
@@ -155,13 +182,12 @@ body.dark-mode header h1 {
     cursor: pointer;
     border-radius: 5px;
 }
-
 body.dark-mode #darkmode-toggle {
     background: #eeeeee;
     color: #1b3c53;
 }
-#darkmode-toggle:hover {
-    background-color: #456882;
+body.dark-mode #darkmode-toggle:hover {
+    background-color: #234c6a;
 }
 .project.show {
     display: block; 
