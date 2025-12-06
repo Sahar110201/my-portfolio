@@ -75,16 +75,17 @@ p {
     transition: 0.3s ease;
 }
 .project-img {
-    max-width: 80%;          /* smaller than full width of project card */
-    height: auto;            /* maintain aspect ratio */
-    display: block;          /* needed for margin auto centering */
-    margin: 15px auto;       /* center image with space above/below */
-    border-radius: 10px;     /* rounded corners */
-    border: 2px solid #234c6a; /* subtle colored border */
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* soft shadow for depth */
-    object-fit: cover;       /* scales nicely without distortion */
-    max-height: 200px;       /* optional: limits height */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* smooth hover effect */
+    max-width: 80%;          
+    height: auto;            
+    display: block;          
+    margin: 15px auto;       
+    border-radius: 10px;     
+    border: 2px solid #234c6a; 
+    box-shadow: 0 8px 16px black; 
+    object-fit: cover;       
+    max-height: 200px;       
+    transition: 0.3s ease;
+  
 }
 .link-btn:hover {
     background-color: #eeeeee;
