@@ -39,8 +39,10 @@ h1 {
     text-shadow: 1px 1px 2px #b0b0b0;
 }
 p {
+    font-size: 16px;
+    line-height: 1.6;
     max-width: 800px;
-    margin: 20px auto;
+    margin: 20px 0;
     font-size: 18px;
     padding: 0 20px;
 }
@@ -61,7 +63,7 @@ p {
 }
 .link-btn {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 6px 12px;
     border: 2px solid;
     border-color: #1b3c53;
     background-color: #1b3c53;
@@ -243,14 +245,14 @@ section:hover {
     text-align: center;
 }
 .detail-btn {
-    padding: 5px 5px;
+    padding: 8px 16px;
     border: 1px solid;
     border-color: #234c6a;
     border-radius: 7px;
     background-color:#234c6a;
     color: #eeeeee;
     cursor: pointer;
-    font-size: 13px;
+    font-size: 15px;
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
