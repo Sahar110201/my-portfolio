@@ -36,18 +36,24 @@ h1 {
     text-transform: uppercase;
     text-shadow: 1px 1px 2px #b0b0b0;
 }
+.nav-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 nav {
     display: flex;
-    justify-content: space-between;
+    padding: 10px 0px;
+    max-width: 1200px;
     align-items: center;
-    padding: 10px 20px;
+    justify-content: space-between;
     background-color: transparent;
     box-shadow: none;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    margin: 0 auto;
 }
-nav-list {
+.nav-list {
     display: flex;
     gap: 30px;
     justify-content: center;
