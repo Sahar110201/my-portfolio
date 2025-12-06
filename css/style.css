@@ -214,13 +214,13 @@ body.dark-mode section {
 }
 body.dark-mode .project {
     background-color: #1b1b1b;
-    border-color: #456882;
+    border-color: #eeeeee;
     box-shadow: none;
 }
 body.dark-mode .detail-btn {
-    background-color: #234c6a;
+    background-color: transparent;
     color: #eeeeee;
-    border-color: #456882;
+    border-color: #eeeeee;
 }
 body.dark-mode .detail-btn:hover {
     background-color: #456882;
