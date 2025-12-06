@@ -1,6 +1,11 @@
+document.addEventListener("DOMContentLoaded", () => { 
+function validateEmail(email) {
+    const regex = /^[\w.-]+@[\w.-]+\.\w{2,4}$/;
+    return regex.test(email);
+
+}
 function formValidation() {
     const form = document.getElementById("contactForm"); 
-
     const name = document.getElementById("name");
     const emailAddress = document.getElementById("emailaddress");
     const message = document.getElementById("message");
@@ -32,5 +37,6 @@ form.addEventListener("submit", (event) => {
         event.preventDefault();
     }
 });
-}
-formValidation();
+  }
+  formValidation();
+});

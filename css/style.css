@@ -147,9 +147,10 @@ section{
     display: block;
 }
 .detail-btn:hover {
-background-color:#234c6a;
-font-style: normal;
-color: #eeeeee;
+    background-color: #eeeeee;
+    color: black;
+    border-color: #eeeeee;
+    box-shadow: 0 4px 8px #eeeeee;
 }
 .detail {
     display: none;
@@ -164,7 +165,24 @@ color: #eeeeee;
 html {
     scroll-behavior: smooth;
 }
-
+#submitBtn {
+    padding: 10px 22px;
+    border-radius: 5px;
+    border: 2px #1b3c53 solid;
+    background-color: transparent;
+    color: #1b3c53;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: none;
+    display: block;
+    margin: 20px auto;
+}
+#submitBtn:hover {
+    background-color: #1b3c53;
+    color: #fff;
+    box-shadow: 0 4px 8px black;
+}
 body.dark-mode h1 {
     color: #eeeeee;
     text-shadow: 1px 1px 2px #000000
@@ -185,15 +203,16 @@ body.dark-mode nav a {
     cursor: pointer;
     border-radius: 5px;
 }
-body.darkmode nav a:hover {
+body.dark-mode nav a:hover {
     background-color: #eeeeee;
-    color: #fff;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px black;
+    color: black;
+    border-color: #eeeeee;
+    box-shadow: 0 4px 8px #eeeeee;
 }
 body.dark-mode nav a.active {
     background-color: #eeeeee;
     color: #000000;
+    box-shadow: 0 4px 8px #eeeeee;
 }
 body.dark-mode {
     background-color: #1b1b1b;
@@ -223,9 +242,27 @@ body.dark-mode .detail-btn {
     border-color: #eeeeee;
 }
 body.dark-mode .detail-btn:hover {
-    background-color: #456882;
+    background-color: #eeeeee;
+    color: black;
+    border-color: #eeeeee;
+    box-shadow: 0 4px 8px #eeeeee;
 }
-
+body.dark-mode #submitBtn {
+    padding: 10px 20px;
+    border: 2px solid #eeeeee; 
+    background-color: transparent;
+    color: #eeeeee;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+}
+body.dark-mode #submitBtn:hover {
+    background-color: #eeeeee;
+    color: black;
+    border-color: #eeeeee;
+    box-shadow: 0 4px 8px #eeeeee;
+}
 #darkmode-toggle {
     padding: 8px 16px;
     border: none;
@@ -243,7 +280,8 @@ body.dark-mode #darkmode-toggle {
     color: #1b1b1b;
 }
 body.dark-mode #darkmode-toggle:hover {
-    background-color: #c7d0b4;
+    background-color: #eeeeee;
+    box-shadow: 0 4px 8px #eeeeee;
 }
 .project.show {
     display: block; 
@@ -289,13 +327,16 @@ body.dark-mode .filter-btn {
 
 body.dark-mode .filter-btn:hover {
     background-color: #eeeeee;
-    color: #1b3c53;
+    color: black;
+    border-color: #eeeeee;
+    box-shadow: 0 4px 8px #eeeeee;
 }
 
 body.dark-mode .filter-btn.active {
-    background-color: #456882; 
-    color: #eeeeee;
-    border-color: #456882;
+    background-color: #eeeeee; 
+    color: black;
+    border-color: #eeeeee;
+    box-shadow: 0 4px 8px #eeeeee;
 }
 
 @media (max-width: 480px) {

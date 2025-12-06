@@ -19,23 +19,30 @@
             <button id="darkmode-toggle">Dark Mode Toggle</button>
         </nav>
      <h1>Contact Me</h1> 
-    <div class ="centerform">
-    <form action="#" name= "contactForm" method="POST">
-        <h2>Please enter your Full Name.</h2>
-    <label><input type="text" id="name" name="name" placeholder="Full Name!" required></label><br>
-        <span id="nameError" class="errorName"></span>
+  <div class="centerform">
+  <form action="#" id="contactForm" method="POST">
+      
+      <h2>Please enter your Full Name.</h2>
+      <label>
+        <input type="text" id="name" name="name" placeholder="Full Name!" required>
+      </label>
+      <span id="nameError" class="errorName"></span>
 
-        <h2>Please enter your Email Address.</h2>
-    <label><input type="email" id="emailaddress" name="emailaddress" placeholder="Email Address!" required></label><br>
-        <span id="emailError" class="errorEmail"></span>
-        
-        <h2>Please type your message here.</h2>
-    <label><input type="text" id="message" name="message" placeholder="Type your Message!" required></label><br><br>
-   <span id="messageError" class="errorMessage"></span>
+      <h2>Please enter your Email Address.</h2>
+      <label>
+        <input type="email" id="emailaddress" name="emailaddress" placeholder="Email Address!" required>
+      </label>
+      <span id="emailError" class="errorEmail"></span>
 
-    <input type="submit"></input>
-    </form>
-    </div>
+      <h2>Please type your message here.</h2>
+      <label>
+        <textarea id="message" name="message" placeholder="Type your Message!" required></textarea>
+      </label>
+      <span id="messageError" class="errorMessage"></span>
+
+      <button type="submit" id="submitBtn">Send Message</button>
+  </form>
+</div>
     <footer>
         <p></p>2025 Sahar Adeeb. All rights reserved. 2025</p>
     </footer>
