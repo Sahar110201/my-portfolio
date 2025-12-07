@@ -594,8 +594,8 @@ body.dark-mode .filter-btn.active {
     }
     .skills-container {
         max-width: 90%;       
-        margin: 15px auto;    
-        padding: 10px 15px;   
+        padding: 15px 10px;
+        margin: 15px 10px;
     }
     .skill h3 {
         font-size: 14px;      
@@ -622,8 +622,8 @@ body.dark-mode .filter-btn.active {
         line-height: 1.5; 
     }
     .about-container {
-        padding: 20px 15px;
-        margin: 30px 10px 100px 10px;
+        padding: 15px 10px;
+        margin: 15px 10px;
     }
     .centerform {
         padding: 15px 10px;
@@ -641,8 +641,8 @@ body.dark-mode .filter-btn.active {
         padding: 8px 10px;
     }
     .section {
-        padding: 20px 15px;
-        margin: 30px 10px 100px 10px;
+        padding: 15px 10px;
+        margin: 15px 10px;
     }
     .gallery {
         padding: 20px 15px;
@@ -737,7 +737,7 @@ body.dark-mode .filter-btn.active {
     }
     .about-container {
         padding: 25px 20px;
-        margin: 40px 15px 120px 15px;
+        margin: 40px 15px;
     }
     .centerform {
         max-width: 80%;
