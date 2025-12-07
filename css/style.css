@@ -107,25 +107,7 @@ p {
     height: 100%;
     width: 0;
     border-radius: 10px;
-    transition: 3.0s ease;
-}
-
-.skill-bar.html { 
-    background-color: #f06529; 
-    width: 30%;
-}
-.skill-level.css { 
-    background-color: #2965f1;
- }
-.skill-level.js { 
-    background-color: #f0db4f; 
-}
-.skill-level.react { 
-    background-color: #61dafb; }
-.skill-level.git { background-color: #f1502f; 
-}
-.html, .css, .js, .react, .git {
-    width: 0;
+    transition: 1.5s ease; 
 }
 
 .project-img {
