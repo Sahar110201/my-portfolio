@@ -1,9 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
     const darkModeBtn = document.getElementById("darkmode-toggle");
+    const savedMode = localStorage.getItem("darkMode");
 
-    if (localStorage.getItem("darkMode") === "enabled") {
+    if (savedMode === "enabled") {
         document.body.classList.add("dark-mode");
         darkModeBtn.textContent = "Click for Light Mode";
+    } else {
+        document.body.classList.remove("dark-mode"); 
+        darkModeBtn.textContent = "Click for Dark Mode";
     }
 
     darkModeBtn.addEventListener("click", () => {
