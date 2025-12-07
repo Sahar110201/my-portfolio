@@ -77,13 +77,19 @@ p {
     transition: 0.3s ease;
 }
 .skills-container {
-    max-width: 800px;
-    margin: 20px auto 40px;
-    padding: 20px;
-    border: 1px solid #d0d0d0;
-    border-radius: 10px;
-    background-color: #ffffff;
-    box-shadow: 0 4px 12px black;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px 25px;
+    border: 2px solid;
+    border-color: #1b3c53;
+    border-radius: 15px;
+    background-color: #f8f8f8;
+    box-shadow: 0 8px 20px #000000;
+    transition: 0.3s ease;
+}
+.skills-container:hover {
+    border-color: #234c6a;
+    box-shadow: 0 12px 25px #000000;
 }
 
 .skill {
@@ -96,18 +102,19 @@ p {
 }
 
 .skill-bar {
-    width: 100%;
-    height: 20px;
-    background-color: #1b3c53;
-    border-radius: 10px;
-    overflow: hidden;
+  width: 100%;
+  background-color: #d0d0d0;
+  height: 20px;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .skill-level {
-    height: 100%;
-    width: 0;
-    border-radius: 10px;
-    transition: 1.5s ease; 
+  height: 100%;
+  width: 0; 
+  background-color: #234c6a; 
+  transition: 1s ease;
 }
 
 .project-img {
@@ -208,7 +215,7 @@ section:hover {
     box-shadow: 0 12px 25px #000000;
 }
 .centerform {
-    max-width: 600px;       
+    max-width: 500px;       
     margin: 50px auto 150px auto;         
     padding: 30px 25px;
     display: flex;
@@ -339,11 +346,20 @@ body.dark-mode .link-btn {
 body.dark-mode .skills-container {
     background-color: #1b1b1b;
     border-color: #eeeeee;
-    box-shadow: 0 8px 20px #eeeeee;
+    box-shadow: none;
+}
+body.dark-mode .skills-container:hover { 
+    box-shadow: 0 4px 8px #eeeeee;
 }
 
 body.dark-mode .skill h3 {
     color: #eeeeee;
+}
+body.dark-mode .skill-bar {
+    background-color: #000000;
+}
+body.dark-mode .skill-level {
+    background-color: #eeeeee;
 }
 
 body.dark-mode .link-btn:hover {
@@ -531,6 +547,18 @@ body.dark-mode .filter-btn.active {
 }
 
 @media (max-width: 480px) {
+    .skills-container {
+        max-width: 90%;       
+        margin: 15px auto;    
+        padding: 10px 15px;   
+    }
+    .skill h3 {
+        font-size: 14px;      
+    }
+    .skill-bar {
+        height: 12px;         
+    }
+
     h1 { 
         font-size: 28px; 
     }
@@ -553,8 +581,19 @@ body.dark-mode .filter-btn.active {
         margin: 30px 10px 100px 10px;
     }
     .centerform {
-        padding: 20px 15px;
-        margin: 30px 10px 100px 10px;
+        padding: 15px 10px;
+        margin: 15px 10px;
+    }
+    .centerform h2 {
+        font-size: 16px;
+    }
+    .centerform input {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+    .centerform textArea {
+        font-size: 14px;
+        padding: 8px 10px;
     }
     .section {
         padding: 20px 15px;
@@ -580,7 +619,7 @@ body.dark-mode .filter-btn.active {
     }
     #submitBtn {
         font-size: 14px;
-        padding: 8px 12px;
+        padding: 8px 10px;
     }
     .detail-btn {
         font-size: 14px;
@@ -595,6 +634,18 @@ body.dark-mode .filter-btn.active {
     }
 }
 @media (max-width: 786px) {
+    .skills-container {
+        max-width: 90%;      
+        margin: 20px auto;   
+        padding: 15px 20px;  
+    }
+    .skill h3 {
+        font-size: 15px;     
+    }
+    .skill-bar {
+        height: 14px;        
+    }
+
     h1 { 
         font-size: 32px; 
     }
@@ -617,8 +668,20 @@ body.dark-mode .filter-btn.active {
         margin: 40px 15px 120px 15px;
     }
     .centerform {
-        padding: 25px 20px;
-        margin: 40px 15px 120px 15px;
+        max-width: 80%;
+        padding: 20px 15px;
+        margin: 15px auto;
+    }
+    .centerform h2 {
+        font-size: 18px;
+    }
+    .centerform input {
+        font-size: 15px;
+        padding: 10px 12px;
+    }
+    .centerform textArea {
+        font-size: 15px;
+        padding: 10px 12px;
     }
     .section {
         padding: 25px 20px;
